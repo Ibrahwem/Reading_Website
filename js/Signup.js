@@ -1,11 +1,18 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/mydb";
-
-MongoClient.connect(url, function(err, db) {
-  if (err) throw err;
-  console.log("Database created!");
-  db.close();
-});
+var users=[
+  {
+    username:"Ibrahem"
+    ,Idintity:"207154212"
+    ,password:"Ibrahem111"
+    ,Fullname:"Ibrahem Ahmed Wattaweda"
+  }
+  ,
+  {
+    username:"Mohammed"
+    ,Idintity:"207154196"
+    ,password:"0508578871"
+    ,Fullname:"Mohammed Ahmed Wattaweda"
+  }
+]
 
 function Checksignup(newuser,newid,pass,repass)
 {
@@ -31,29 +38,19 @@ function Checksignup(newuser,newid,pass,repass)
 
 function SignUpNewUser()
 {
-  console.log("wer");
   var newname=document.getElementById("username").value;
   var newid=document.getElementById("id").value;
   var pass=document.getElementById("password").value;
   var repass=document.getElementById("Repassword").value;
-  var users = new XMLHttpRequest();
-  users.open('GET','js/Users.json');
-  users.onload=function()
-  {
-     var user=JSON.parse(users.responseText);//users.send();
-  console.log(user[0].username);
     if(Checksignup(newname,newid,pass,repass))
      {
-    /*   users.open('POST','js/Users.json');
-      Users[Users.length].Username=newuser
-      Users[Users.length].Idintity=newid
-      Users[Users.length].password=pass;*/
+    /*  users[users.length].Username=newuser
+      users[users.length].Idintity=newid
+      users[users.length].password=pass;*/
       alert("sucssesfuly signup");
      }
     else
      {
       alert("Idintity /Username was alredy used or password is wrong ");
      }
-   };
-   users.send();
-}
+   }

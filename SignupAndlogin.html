@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <title>Sign Up page</title>
-     <link rel="stylesheet" href="css/Signup.css">
+     <title>Sign Up page/Log in</title>
+     <link rel="stylesheet" href="css/SignupAndlogin.css">
 <head>
 <body>
-<div class="wrap">
+  <div class="login">
+    <h2>Log in</h2>
+    <input type="text" id="username" placeholder="Username"required>
+  <input type="password"id="password" placeholder="Password"required>
+  <button style="background-color: green;type="button" onclick="SignUpNewUser()">Login</button>
+  </div>
+<div class="regeister">
   <h2>Sign Up Here</h2>
   <form>
     <pre>
@@ -14,7 +20,7 @@
     <input type="text" id="username" placeholder="Username"required>
     <input type="password"id="password" placeholder="Password"required>
     <input type="password" id="Repassword" placeholder="Write Password again"required><br><br>
-    <button type="button" onclick="SignUpNewUser()">Signup</button>
+    <button style="background-color: yellow;type="button" onclick="SignUpNewUser()">Signup</button>
    </pre>
   </form>
 </div>

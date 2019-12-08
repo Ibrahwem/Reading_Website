@@ -4,11 +4,22 @@ body
   background: url(https://cosmos-images2.imgix.net/file/spina/photo/20565/191010_nature.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=1920);
   background-size: cover;
 }
-.wrap
+.regeister
 {
   max-width: 350px;
   border-radius: 20px;
   margin: auto;
+  background: rgba(0, 0, 0, 0.9);
+  box-sizing: border-box;
+  padding: 40px;
+  color:#fff;
+  margin-top: 120px;
+}
+.login
+{
+  max-width: 350px;
+  border-radius: 20px;
+  margin:auto;
   background: rgba(0, 0, 0, 0.9);
   box-sizing: border-box;
   padding: 40px;
