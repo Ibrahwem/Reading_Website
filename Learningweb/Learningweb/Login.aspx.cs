@@ -24,7 +24,7 @@ namespace Learningweb
             con.Close();
             if (temp == 1)
             {
-                Response.Redirect("Homepage.aspx");
+                Response.Redirect("parentsuggestion.aspx");
             }
             else 
             {

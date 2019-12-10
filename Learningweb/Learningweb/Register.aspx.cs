@@ -24,7 +24,8 @@ namespace Learningweb
             com.ExecuteNonQuery();
             con.Close();
 
-        
+            Label7.ForeColor = System.Drawing.Color.Green;
+            Label7.Text = "You can log in now";
         }
     }
 }
