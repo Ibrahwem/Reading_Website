@@ -75,10 +75,13 @@
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
-    <Content Include="parentsuggestion.aspx" />
-    <Content Include="Register.aspx" />
+    <Content Include="parentspage.aspx" />
+    <Content Include="parentRegister.aspx" />
+    <Content Include="Studentlogin.aspx" />
+    <Content Include="Studentpage.aspx" />
+    <Content Include="studetregister.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Login.aspx" />
+    <Content Include="ParentLogin.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.aspx.cs">
@@ -105,27 +108,48 @@
     <Compile Include="Homepage.aspx.designer.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="parentsuggestion.aspx.cs">
-      <DependentUpon>parentsuggestion.aspx</DependentUpon>
+    <Compile Include="parentspage.aspx.cs">
+      <DependentUpon>parentspage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="parentsuggestion.aspx.designer.cs">
-      <DependentUpon>parentsuggestion.aspx</DependentUpon>
+    <Compile Include="parentspage.aspx.designer.cs">
+      <DependentUpon>parentspage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="ParentLogin.aspx.cs">
+      <DependentUpon>ParentLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="ParentLogin.aspx.designer.cs">
+      <DependentUpon>ParentLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="parentRegister.aspx.cs">
+      <DependentUpon>parentRegister.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="parentRegister.aspx.designer.cs">
+      <DependentUpon>parentRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Studentlogin.aspx.cs">
+      <DependentUpon>Studentlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Studentlogin.aspx.designer.cs">
+      <DependentUpon>Studentlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Studentpage.aspx.cs">
+      <DependentUpon>Studentpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Studentpage.aspx.designer.cs">
+      <DependentUpon>Studentpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studetregister.aspx.cs">
+      <DependentUpon>studetregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studetregister.aspx.designer.cs">
+      <DependentUpon>studetregister.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
