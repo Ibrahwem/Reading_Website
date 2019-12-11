@@ -13,34 +13,46 @@
             color: #000BCC;
             background-color: #FF3300;
         }
+        body
+        {
+            background-image: url("https://news.cgtn.com/news/356b544e334d544f79636a4d78637a4e324d6a4e31457a6333566d54/img/f3a9e154b0954522bf9b3ca6d6e8e318/f3a9e154b0954522bf9b3ca6d6e8e318.jpg");
+    background-size:100%;
+    background-attachment:fixed;
+        }
+
+        .auto-style4 {
+            background-color: #00FF00;
+        }
+
     </style>
 </head>
-<body>
+<body style="        height: 765px
+">
     <form id="form1" runat="server">
        <div>
            <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="auto-style3"> Register like a student</span><br />
             <br />
-            <asp:Label ID="Label18" runat="server" Text="Fullname"></asp:Label>
+            <asp:Label ID="Label18" runat="server" Text="Fullname" CssClass="auto-style4"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="sfullname" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="sfullname" ErrorMessage="insert your fullname" style="color: #FF0000">*</asp:RequiredFieldValidator>
             <br />
-            <asp:Label ID="Label25" runat="server" Text="Username"></asp:Label>
+            <asp:Label ID="Label25" runat="server" Text="Username" style="background-color: #00FF00"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="susername" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="susername" ErrorMessage="insert your username" style="color: #FF0000">*</asp:RequiredFieldValidator>
             <br />
-           Enter yor Identity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <asp:TextBox ID="sidentity" runat="server" TextMode="Number"></asp:TextBox>
+           <span class="auto-style4">Enter yor Identity&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;
+           <asp:TextBox ID="sidentity" runat="server"></asp:TextBox>
            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="sidentity" ErrorMessage="Please Enter your identity" style="color: #FF0000">*</asp:RequiredFieldValidator>
             <br />
-            <asp:Label ID="Label34" runat="server" Text="password"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label34" runat="server" Text="password" CssClass="auto-style4"></asp:Label>
+           <span class="auto-style4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="spassword" runat="server" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="spassword" ErrorMessage="insert your password" style="color: #FF0000">*</asp:RequiredFieldValidator>
            <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="srepassword" ControlToValidate="spassword" ErrorMessage="Wrong in confirm password" style="color: #FF0000">*</asp:CompareValidator>
             <br />
-            <asp:Label ID="Label60" runat="server" Text="Type password again"></asp:Label>
+            <asp:Label ID="Label60" runat="server" Text="Type password again" CssClass="auto-style4"></asp:Label>
            </em></strong>&nbsp;<strong><em><asp:TextBox ID="srepassword" runat="server" TextMode="Password"></asp:TextBox>
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

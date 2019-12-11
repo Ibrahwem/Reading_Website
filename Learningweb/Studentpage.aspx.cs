@@ -13,5 +13,20 @@ namespace Learningweb
         {
 
         }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (DropDownList1.SelectedIndex.Equals(1))
+                Response.Redirect("ThinkingStories.aspx");
+            else if (DropDownList1.SelectedIndex.Equals(2))
+                Response.Redirect("AdventureStories.aspx");
+            else if (DropDownList1.SelectedIndex.Equals(3))
+                Response.Redirect("AnimalStories.aspx");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Homepage.aspx");
+        }
     }
 }

@@ -70,17 +70,21 @@
     <Content Include="admin.aspx" />
     <Content Include="adminInformation.aspx" />
     <Content Include="Adminlogin.aspx" />
+    <Content Include="AdventureStories.aspx" />
+    <Content Include="AnimalStories.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
+    <Content Include="images\nature.jpg" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
     <Content Include="Studentlogin.aspx" />
     <Content Include="Studentpage.aspx" />
     <Content Include="studetregister.aspx" />
+    <Content Include="ThinkingStories.aspx" />
     <Content Include="Web.config" />
     <Content Include="ParentLogin.aspx" />
   </ItemGroup>
@@ -105,6 +109,20 @@
     </Compile>
     <Compile Include="Adminlogin.aspx.designer.cs">
       <DependentUpon>Adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdventureStories.aspx.cs">
+      <DependentUpon>AdventureStories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdventureStories.aspx.designer.cs">
+      <DependentUpon>AdventureStories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalStories.aspx.cs">
+      <DependentUpon>AnimalStories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnimalStories.aspx.designer.cs">
+      <DependentUpon>AnimalStories.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -158,6 +176,13 @@
     </Compile>
     <Compile Include="studetregister.aspx.designer.cs">
       <DependentUpon>studetregister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThinkingStories.aspx.cs">
+      <DependentUpon>ThinkingStories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThinkingStories.aspx.designer.cs">
+      <DependentUpon>ThinkingStories.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

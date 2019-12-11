@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         
-       <div style="border: medium groove #FFFF00; margin: auto; background-color: #FFFFFF; height: 339px; font-size: medium;">
+       <div style="border: medium groove #FFFFFF; margin: auto; background-color: #FFFFFF; height: 763px; font-size: medium;">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <b><em style="color: #FF0066">
@@ -51,3 +51,17 @@
     </form>
 </body>
 </html>
+<style>
+    body 
+    {
+        background-image:url("https://st3.depositphotos.com/7652440/14103/v/1600/depositphotos_141035396-stock-illustration-admin-rubber-stamp.jpg");
+        background-size:100%;
+    background-attachment:fixed;
+    }
+    div {
+        background-image:url("https://st3.depositphotos.com/7652440/14103/v/1600/depositphotos_141035396-stock-illustration-admin-rubber-stamp.jpg");
+        background-size:100%;
+    background-attachment:fixed;
+
+    }
+</style>
