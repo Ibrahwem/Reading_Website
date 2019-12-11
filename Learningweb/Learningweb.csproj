@@ -79,6 +79,7 @@
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
     <Content Include="images\nature.jpg" />
+    <Content Include="ParentsaComments.aspx" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
     <Content Include="Studentlogin.aspx" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="Homepage.aspx.designer.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParentsaComments.aspx.cs">
+      <DependentUpon>ParentsaComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParentsaComments.aspx.designer.cs">
+      <DependentUpon>ParentsaComments.aspx</DependentUpon>
     </Compile>
     <Compile Include="parentspage.aspx.cs">
       <DependentUpon>parentspage.aspx</DependentUpon>

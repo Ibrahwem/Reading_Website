@@ -17,7 +17,7 @@ namespace Learningweb
 
         protected void Button5_Click(object sender, EventArgs e)
         {
-            
+            Response.Redirect("ParentsaComments.aspx");
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)

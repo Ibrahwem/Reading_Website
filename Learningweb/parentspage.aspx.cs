@@ -17,7 +17,7 @@ namespace Learningweb
 
         protected void Button9_Click(object sender, EventArgs e)
         {
-            string dat = "Insert into [suggestion](comments) Values('" +comment.Text+ "')";
+            string dat = "Insert into [suggestions](comments) Values('" +comment.Text+ "')";
             SqlCommand com = new SqlCommand(dat, con);
             con.Open();
             com.ExecuteNonQuery();
