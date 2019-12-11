@@ -29,13 +29,13 @@
             <br />
             <asp:Label ID="Label3" runat="server" Text="password"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="password" runat="server"></asp:TextBox>
+            <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="password" ErrorMessage="insert your password" style="color: #FF0000">*</asp:RequiredFieldValidator>
             <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="repassword" ControlToValidate="password" ErrorMessage="Wrong in confirm password" style="color: #FF0000">*</asp:CompareValidator>
             <br />
             <asp:Label ID="Label6" runat="server" Text="Confirm password"></asp:Label>
             &nbsp;&nbsp;
-            </em></strong>&nbsp;<asp:TextBox ID="repassword" runat="server"></asp:TextBox>
+            </em></strong>&nbsp;<asp:TextBox ID="repassword" runat="server" TextMode="Password"></asp:TextBox>
             <br />
             <asp:Label ID="Label7" runat="server" Text="."></asp:Label>
             <br />

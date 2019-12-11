@@ -30,14 +30,18 @@
             <asp:TextBox ID="susername" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="susername" ErrorMessage="insert your username" style="color: #FF0000">*</asp:RequiredFieldValidator>
             <br />
+           Enter yor Identity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <asp:TextBox ID="sidentity" runat="server" TextMode="Number"></asp:TextBox>
+           <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="sidentity" ErrorMessage="Please Enter your identity" style="color: #FF0000">*</asp:RequiredFieldValidator>
+            <br />
             <asp:Label ID="Label34" runat="server" Text="password"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="spassword" runat="server"></asp:TextBox>
+            <asp:TextBox ID="spassword" runat="server" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="spassword" ErrorMessage="insert your password" style="color: #FF0000">*</asp:RequiredFieldValidator>
            <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="srepassword" ControlToValidate="spassword" ErrorMessage="Wrong in confirm password" style="color: #FF0000">*</asp:CompareValidator>
             <br />
             <asp:Label ID="Label60" runat="server" Text="Type password again"></asp:Label>
-           </em></strong>&nbsp;<strong><em><asp:TextBox ID="srepassword" runat="server"></asp:TextBox>
+           </em></strong>&nbsp;<strong><em><asp:TextBox ID="srepassword" runat="server" TextMode="Password"></asp:TextBox>
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />

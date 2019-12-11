@@ -27,7 +27,7 @@ namespace Learningweb
             con.Close();
             if (temp != 1)
             {
-                string dat = "Insert into [student](fullname,username,password) Values('" + sfullname.Text + "','" + susername.Text + "','" + spassword.Text + "')";
+                string dat = "Insert into [student](fullname,username,password,Sidentity) Values('" + sfullname.Text + "','" + susername.Text + "','" + spassword.Text + "','"+sidentity.Text+"')";
                 SqlCommand comm = new SqlCommand(dat, con);
                 con.Open();
                 comm.ExecuteNonQuery();
@@ -38,7 +38,7 @@ namespace Learningweb
             else
             {
                 Label61.ForeColor = System.Drawing.Color.Red;
-                Label61.Text = "This username is taken.Try another.";
+                Label61.Text = "This username or Identity is taken.Try another.";
             }
     
         }
