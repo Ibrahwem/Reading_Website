@@ -12,7 +12,7 @@
         <asp:Button ID="Button3" runat="server" Text="Categories" Width="329px" />
         <asp:Button ID="Button4" runat="server" Text="Add a story" Width="297px" />
         <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="303px" />
-        <asp:Button ID="Button6" runat="server" Text="Log out" Width="303px" />
+        <asp:Button ID="Button6" runat="server" Text="Log out" Width="303px" OnClick="Button6_Click" />
         <br />
         <br />
         <br />

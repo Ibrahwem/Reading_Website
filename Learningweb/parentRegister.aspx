@@ -37,6 +37,8 @@
             &nbsp;&nbsp;
             </em></strong>&nbsp;<asp:TextBox ID="repassword" runat="server"></asp:TextBox>
             <br />
+            <asp:Label ID="Label7" runat="server" Text="."></asp:Label>
+            <br />
             <asp:ValidationSummary ID="ValidationSummary1" runat="server" style="font-style: italic; font-weight: 700; color: #FF0000; background-color: #FFFF00" />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

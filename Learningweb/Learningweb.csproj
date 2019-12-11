@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="admin.aspx" />
     <Content Include="adminInformation.aspx" />
+    <Content Include="Adminlogin.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="adminInformation.aspx.designer.cs">
       <DependentUpon>adminInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adminlogin.aspx.cs">
+      <DependentUpon>Adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminlogin.aspx.designer.cs">
+      <DependentUpon>Adminlogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

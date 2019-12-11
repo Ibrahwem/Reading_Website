@@ -20,11 +20,27 @@ namespace Learningweb
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string dat = "Insert into [student](fullname,username,password) Values('" + sfullname.Text + "','" + susername.Text + "','" + spassword.Text + "')";
-            SqlCommand com = new SqlCommand(dat, con);
+            string check = " select count(*) from [student] where username ='" + susername.Text + "' ";
+            SqlCommand com = new SqlCommand(check, con);
             con.Open();
-            com.ExecuteNonQuery();
+            int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
             con.Close();
+            if (temp != 1)
+            {
+                string dat = "Insert into [student](fullname,username,password) Values('" + sfullname.Text + "','" + susername.Text + "','" + spassword.Text + "')";
+                SqlCommand comm = new SqlCommand(dat, con);
+                con.Open();
+                comm.ExecuteNonQuery();
+                con.Close();
+                Label61.ForeColor = System.Drawing.Color.Green;
+                Label61.Text = "You have successfully registered for the site.";
+            }
+            else
+            {
+                Label61.ForeColor = System.Drawing.Color.Red;
+                Label61.Text = "This username is taken.Try another.";
+            }
+    
         }
     }
 }
