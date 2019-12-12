@@ -9,12 +9,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Please Enter your son id"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Please Enter your son id" style="font-style: italic; font-weight: 700; font-size: large; background-color: #FFFF00"></asp:Label>
             <br />
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Search" />
+            <asp:TextBox ID="TextBox1" runat="server" style="font-weight: 700; font-style: italic"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" Text="Search" style="font-style: italic; font-weight: 700; color: #FFFF00; background-color: #000099" />
             <br />
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." Width="213px">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." Width="213px" style="font-weight: 700; font-style: italic">
                 <Columns>
                     <asp:BoundField DataField="Story" HeaderText="Story" SortExpression="Story" />
                 </Columns>
@@ -38,3 +38,11 @@
     </form>
 </body>
 </html>
+<style>
+    body
+        {
+     background-image: url("https://www.inmatrix.com/skins/background/Default_Nav[1920x1080].png");
+    background-size:100%;
+    background-attachment:fixed;
+        }
+</style>
