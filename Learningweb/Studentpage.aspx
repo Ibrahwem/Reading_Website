@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="Button1" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Groove" ForeColor="Yellow" Height="25px" style="font-weight: 700; font-style: italic" Text="Click here to send your suggestion stories" />
+            <asp:Button ID="Button1" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Groove" ForeColor="Yellow" Height="25px" style="font-weight: 700; font-style: italic" Text="Click here to send your suggestion stories" OnClick="Button1_Click" />
             <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" BackColor="#000099" ForeColor="Yellow" Height="31px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="font-weight: 700; font-style: italic; margin-top: 0px" Width="154px">
                 <asp:ListItem Selected="True">Select category</asp:ListItem>
                 <asp:ListItem>Thinking Stories</asp:ListItem>

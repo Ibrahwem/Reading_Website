@@ -84,7 +84,9 @@
     <Content Include="parentRegister.aspx" />
     <Content Include="Studentlogin.aspx" />
     <Content Include="Studentpage.aspx" />
+    <Content Include="StudentRequests.aspx" />
     <Content Include="studetregister.aspx" />
+    <Content Include="Suggeststory.aspx" />
     <Content Include="ThinkingStories.aspx" />
     <Content Include="Usersdetails.aspx" />
     <Content Include="Web.config" />
@@ -179,12 +181,26 @@
     <Compile Include="Studentpage.aspx.designer.cs">
       <DependentUpon>Studentpage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentRequests.aspx.cs">
+      <DependentUpon>StudentRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentRequests.aspx.designer.cs">
+      <DependentUpon>StudentRequests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="studetregister.aspx.cs">
       <DependentUpon>studetregister.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="studetregister.aspx.designer.cs">
       <DependentUpon>studetregister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suggeststory.aspx.cs">
+      <DependentUpon>Suggeststory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suggeststory.aspx.designer.cs">
+      <DependentUpon>Suggeststory.aspx</DependentUpon>
     </Compile>
     <Compile Include="ThinkingStories.aspx.cs">
       <DependentUpon>ThinkingStories.aspx</DependentUpon>

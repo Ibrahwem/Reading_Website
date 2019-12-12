@@ -33,5 +33,10 @@ namespace Learningweb
         {
             Response.Redirect("Homepage.aspx");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Suggeststory.aspx");
+        }
     }
 }
