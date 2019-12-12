@@ -114,3 +114,10 @@ C:\Users\TSC\Desktop\New folder (3)\Learningweb\obj\Debug\Learningweb.csprojAsse
 C:\Users\TSC\Desktop\New folder (3)\Learningweb\obj\Debug\Learningweb.csproj.CopyComplete
 C:\Users\TSC\Desktop\New folder (3)\Learningweb\obj\Debug\Learningweb.dll
 C:\Users\TSC\Desktop\New folder (3)\Learningweb\obj\Debug\Learningweb.pdb
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\UnitTestProject1.dll
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\UnitTestProject1.pdb
+C:\Users\TSC\Desktop\New folder (3)\Learningweb\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.xml

@@ -8,11 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Button ID="Button2" runat="server" Text="Users" Width="327px" />
-        <asp:Button ID="Button3" runat="server" Text="Categories" Width="329px" />
+        <asp:Button ID="Button2" runat="server" Text="Users details" Width="253px" OnClick="Button2_Click" />
+        <asp:Button ID="Button3" runat="server" Text="Categories" Width="245px" />
         <asp:Button ID="Button4" runat="server" Text="Add a story" Width="297px" />
-        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="303px" />
-        <asp:Button ID="Button6" runat="server" Text="Log out" Width="303px" OnClick="Button6_Click" />
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="227px" />
+        <asp:Button ID="Button6" runat="server" Text="Log out" Width="221px" OnClick="Button6_Click" />
+        <br />
+        <br />
         <br />
         <br />
         <br />

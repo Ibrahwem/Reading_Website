@@ -86,6 +86,7 @@
     <Content Include="Studentpage.aspx" />
     <Content Include="studetregister.aspx" />
     <Content Include="ThinkingStories.aspx" />
+    <Content Include="Usersdetails.aspx" />
     <Content Include="Web.config" />
     <Content Include="ParentLogin.aspx" />
   </ItemGroup>
@@ -192,6 +193,13 @@
     <Compile Include="ThinkingStories.aspx.designer.cs">
       <DependentUpon>ThinkingStories.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Usersdetails.aspx.cs">
+      <DependentUpon>Usersdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usersdetails.aspx.designer.cs">
+      <DependentUpon>Usersdetails.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -204,6 +212,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.csproj">
+      <Project>{db364613-b2e2-492a-9065-fcd7b479d564}</Project>
+      <Name>UnitTestProject1</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

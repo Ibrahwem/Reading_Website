@@ -11,10 +11,10 @@
         <div>
             <asp:Button ID="Button1" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Groove" ForeColor="Yellow" Height="25px" style="font-weight: 700; font-style: italic" Text="Click here to send your suggestion stories" />
             <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" BackColor="#000099" ForeColor="Yellow" Height="31px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="font-weight: 700; font-style: italic; margin-top: 0px" Width="154px">
-                <asp:ListItem>       Category</asp:ListItem>
-                <asp:ListItem>Thinking stories</asp:ListItem>
-                <asp:ListItem>Adventure stories</asp:ListItem>
-                <asp:ListItem>Animals stories</asp:ListItem>
+                <asp:ListItem Selected="True">Select category</asp:ListItem>
+                <asp:ListItem>Thinking Stories</asp:ListItem>
+                <asp:ListItem>Adventure Stories</asp:ListItem>
+                <asp:ListItem>Animals Stories</asp:ListItem>
             </asp:DropDownList>
             <asp:Button ID="Button2" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="24px" style="font-weight: 700; font-style: italic; color: #FFFF00" Text="Suggestion stories by parents" />
             <asp:Button ID="Button3" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="25px" style="color: #FFFF00; font-weight: 700; font-style: italic; background-color: #000099" Text="Stories approved for reading" />
