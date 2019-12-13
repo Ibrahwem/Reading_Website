@@ -71,6 +71,7 @@
     <Content Include="adminInformation.aspx" />
     <Content Include="Adminlogin.aspx" />
     <Content Include="AdventureStories.aspx" />
+    <Content Include="AgreedStoriesByParents.aspx" />
     <Content Include="AnimalStories.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
@@ -120,6 +121,13 @@
     </Compile>
     <Compile Include="AdventureStories.aspx.designer.cs">
       <DependentUpon>AdventureStories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgreedStoriesByParents.aspx.cs">
+      <DependentUpon>AgreedStoriesByParents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgreedStoriesByParents.aspx.designer.cs">
+      <DependentUpon>AgreedStoriesByParents.aspx</DependentUpon>
     </Compile>
     <Compile Include="AnimalStories.aspx.cs">
       <DependentUpon>AnimalStories.aspx</DependentUpon>

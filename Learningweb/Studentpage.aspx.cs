@@ -38,5 +38,10 @@ namespace Learningweb
         {
             Response.Redirect("Suggeststory.aspx");
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgreedStoriesByParents.aspx");
+        }
     }
 }
