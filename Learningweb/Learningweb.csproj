@@ -98,6 +98,23 @@
     <Content Include="images %282%29\Crocodile And The Monkey\7.jpg" />
     <Content Include="images %282%29\Crocodile And The Monkey\8.jpg" />
     <Content Include="images %282%29\Crocodile And The Monkey\9.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\1.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\10.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\11.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\12.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\13.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\14.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\15.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\16.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\17.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\2.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\3.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\4.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\5.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\6.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\7.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\8.jpg" />
+    <Content Include="images %282%29\The Lion and The Mouse Short Story\9.jpg" />
     <Content Include="ParentsaComments.aspx" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
@@ -106,6 +123,7 @@
     <Content Include="StudentRequests.aspx" />
     <Content Include="studetregister.aspx" />
     <Content Include="Suggeststory.aspx" />
+    <Content Include="TheLionandTheMouseShortStory.aspx" />
     <Content Include="ThinkingStories.aspx" />
     <Content Include="Usersdetails.aspx" />
     <Content Include="Web.config" />
@@ -234,6 +252,13 @@
     </Compile>
     <Compile Include="Suggeststory.aspx.designer.cs">
       <DependentUpon>Suggeststory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheLionandTheMouseShortStory.aspx.cs">
+      <DependentUpon>TheLionandTheMouseShortStory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheLionandTheMouseShortStory.aspx.designer.cs">
+      <DependentUpon>TheLionandTheMouseShortStory.aspx</DependentUpon>
     </Compile>
     <Compile Include="ThinkingStories.aspx.cs">
       <DependentUpon>ThinkingStories.aspx</DependentUpon>
