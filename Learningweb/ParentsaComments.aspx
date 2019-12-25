@@ -16,6 +16,18 @@
             <asp:GridView ID="GridView1" runat="server" Height="367px" style="text-align: center" Width="1567px">
             </asp:GridView>
         </div>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [suggestions] WHERE [Id] = @Id" InsertCommand="INSERT INTO [suggestions] ([comments]) VALUES (@comments)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [Id], [comments] FROM [suggestions]" UpdateCommand="UPDATE [suggestions] SET [comments] = @comments WHERE [Id] = @Id">
+            <DeleteParameters>
+                <asp:Parameter Name="Id" Type="Int32" />
+            </DeleteParameters>
+            <InsertParameters>
+                <asp:Parameter Name="comments" Type="String" />
+            </InsertParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="comments" Type="String" />
+                <asp:Parameter Name="Id" Type="Int32" />
+            </UpdateParameters>
+        </asp:SqlDataSource>
     </form>
 </body>
 </html>

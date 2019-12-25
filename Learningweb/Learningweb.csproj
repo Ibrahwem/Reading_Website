@@ -77,9 +77,27 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="CrocodileAndTheMonkey.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
-    <Content Include="images\nature.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\1.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\10.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\11.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\12.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\13.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\14.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\15.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\16.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\17.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\18.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\2.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\3.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\4.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\5.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\6.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\7.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\8.jpg" />
+    <Content Include="images %282%29\Crocodile And The Monkey\9.jpg" />
     <Content Include="ParentsaComments.aspx" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
@@ -135,6 +153,13 @@
     </Compile>
     <Compile Include="AnimalStories.aspx.designer.cs">
       <DependentUpon>AnimalStories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrocodileAndTheMonkey.aspx.cs">
+      <DependentUpon>CrocodileAndTheMonkey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrocodileAndTheMonkey.aspx.designer.cs">
+      <DependentUpon>CrocodileAndTheMonkey.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
