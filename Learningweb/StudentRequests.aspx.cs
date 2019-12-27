@@ -26,14 +26,14 @@ namespace Learningweb
             if (temp == 1)
             {
                 /*Adding new story to son list*/
-                string checks = " select count(*) from [acceptedstoriesbyparent] where Story ='" + TextBox2.Text + "' and Sidentity= '" + TextBox1.Text + "' ";
+                string checks = " select count(*) from [acceptedstoriesbyparent] where Story ='" + DropDownList1.Text + "' and Sidentity= '" + TextBox1.Text + "' ";
                 SqlCommand comm = new SqlCommand(checks, con);
                 con.Open();
                 int temps = Convert.ToInt32(comm.ExecuteScalar().ToString());
                 con.Close();
                 if (temps != 1)
                 {
-                    string dat = "Insert into [acceptedstoriesbyparent](Story,Sidentity) Values('" + TextBox2.Text + "','" + TextBox1.Text + "')";
+                    string dat = "Insert into [acceptedstoriesbyparent](Story,Sidentity) Values('" + DropDownList1.Text + "','" + TextBox1.Text + "')";
                     SqlCommand commm = new SqlCommand(dat, con);
                     con.Open();
                     commm.ExecuteNonQuery();

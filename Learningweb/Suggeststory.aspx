@@ -20,7 +20,9 @@
 &nbsp;
             <asp:Label ID="Label4" runat="server" style="font-weight: 700; font-style: italic" Text="Choose story"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="storyname" DataValueField="storyname" style="margin-left: 0px" Width="169px">
+            </asp:DropDownList>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [storyname] FROM [stories]"></asp:SqlDataSource>
 &nbsp;&nbsp;
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="color: #FFFFFF; font-style: italic; font-weight: 700; background-color: #00FF00" Text="Send story" />
             <br />

@@ -17,8 +17,7 @@
                 <asp:ListItem>Animals Stories</asp:ListItem>
             </asp:DropDownList>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [storycategory] FROM [category]"></asp:SqlDataSource>
-            <asp:Button ID="Button2" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="24px" style="font-weight: 700; font-style: italic; color: #FFFF00" Text="Suggestion stories by parents" />
-            <asp:Button ID="Button3" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="25px" style="color: #FFFF00; font-weight: 700; font-style: italic; background-color: #000099" Text="Stories approved for reading" OnClick="Button3_Click" />
+            <asp:Button ID="Button3" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="25px" style="color: #FFFF00; font-weight: 700; font-style: italic; background-color: #000099" Text="Stories approved/suggested for reading" OnClick="Button3_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button4" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" ForeColor="Yellow" Height="27px" OnClick="Button4_Click" style="font-weight: 700; font-style: italic" Text="Logout" />
             </div>

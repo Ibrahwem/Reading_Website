@@ -37,8 +37,11 @@
             <br />
             <asp:Label ID="Label2" runat="server" style="font-weight: 700; font-style: italic; background-color: #00CC00" Text="Please enter the story that you accept to start read"></asp:Label>
             <br />
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource2" DataTextField="storyname" DataValueField="storyname">
+            </asp:DropDownList>
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="color: #FFFF00; font-style: italic; font-weight: 700; background-color: #000099" Text="Send story" />
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [storyname], [category] FROM [stories]"></asp:SqlDataSource>
+            <br />
             <br />
             <br />
             <asp:Label ID="Label3" runat="server" style="background-color: #FFFFFF" Text="."></asp:Label>

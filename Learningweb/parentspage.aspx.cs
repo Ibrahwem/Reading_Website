@@ -23,10 +23,22 @@ namespace Learningweb
             com.ExecuteNonQuery();
             con.Close();
         }
-
+       
         protected void Button7_Click(object sender, EventArgs e)
         {
             Response.Redirect("StudentRequests.aspx");
         }
+
+        protected void DropDownList1_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            if (DropDownList1.SelectedIndex.Equals(1))
+                Response.Redirect("ThinkingStories.aspx");
+            else if (DropDownList1.SelectedIndex.Equals(2))
+                Response.Redirect("AdventureStories.aspx");
+            else if (DropDownList1.SelectedIndex.Equals(3))
+                Response.Redirect("AnimalStories.aspx");
+        }
+
+        
     }
 }
