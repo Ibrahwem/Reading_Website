@@ -157,5 +157,151 @@ namespace Learningweb
                 Label17.ForeColor = System.Drawing.Color.Yellow;
             }
         }
+
+        protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (DropDownList3.SelectedIndex.Equals(1))
+            {
+                Label1.Font.Size = FontUnit.XXSmall;
+                Label2.Font.Size = FontUnit.XXSmall;
+                Label3.Font.Size = FontUnit.XXSmall;
+                Label4.Font.Size = FontUnit.XXSmall;
+                Label5.Font.Size = FontUnit.XXSmall;
+                Label6.Font.Size = FontUnit.XXSmall;
+                Label7.Font.Size = FontUnit.XXSmall;
+                Label8.Font.Size = FontUnit.XXSmall;
+                Label9.Font.Size = FontUnit.XXSmall;
+                Label10.Font.Size = FontUnit.XXSmall;
+                Label11.Font.Size = FontUnit.XXSmall;
+                Label12.Font.Size = FontUnit.XXSmall;
+                Label13.Font.Size = FontUnit.XXSmall;
+                Label14.Font.Size = FontUnit.XXSmall;
+                Label15.Font.Size = FontUnit.XXSmall;
+                Label16.Font.Size = FontUnit.XXSmall;
+                Label17.Font.Size = FontUnit.XXSmall;
+            }
+            else if (DropDownList3.SelectedIndex.Equals(2))
+            {
+                Label1.Font.Size = FontUnit.XSmall;
+                Label2.Font.Size = FontUnit.XSmall;
+                Label3.Font.Size = FontUnit.XSmall;
+                Label4.Font.Size = FontUnit.XSmall;
+                Label5.Font.Size = FontUnit.XSmall;
+                Label6.Font.Size = FontUnit.XSmall;
+                Label7.Font.Size = FontUnit.XSmall;
+                Label8.Font.Size = FontUnit.XSmall;
+                Label9.Font.Size = FontUnit.XSmall;
+                Label10.Font.Size = FontUnit.XSmall;
+                Label11.Font.Size = FontUnit.XSmall;
+                Label12.Font.Size = FontUnit.XSmall;
+                Label13.Font.Size = FontUnit.XSmall;
+                Label14.Font.Size = FontUnit.XSmall;
+                Label15.Font.Size = FontUnit.XSmall;
+                Label16.Font.Size = FontUnit.XSmall;
+                Label17.Font.Size = FontUnit.XSmall;
+            }
+            else if (DropDownList3.SelectedIndex.Equals(3))
+            {
+                Label1.Font.Size = FontUnit.Small;
+                Label2.Font.Size = FontUnit.Small;
+                Label3.Font.Size = FontUnit.Small;
+                Label4.Font.Size = FontUnit.Small;
+                Label5.Font.Size = FontUnit.Small;
+                Label6.Font.Size = FontUnit.Small;
+                Label7.Font.Size = FontUnit.Small;
+                Label8.Font.Size = FontUnit.Small;
+                Label9.Font.Size = FontUnit.Small;
+                Label10.Font.Size = FontUnit.Small;
+                Label11.Font.Size = FontUnit.Small;
+                Label12.Font.Size = FontUnit.Small;
+                Label13.Font.Size = FontUnit.Small;
+                Label14.Font.Size = FontUnit.Small;
+                Label15.Font.Size = FontUnit.Small;
+                Label16.Font.Size = FontUnit.Small;
+                Label17.Font.Size = FontUnit.Small;
+            }
+            else if (DropDownList3.SelectedIndex.Equals(4))
+            {
+                Label1.Font.Size = FontUnit.Medium;
+                Label2.Font.Size = FontUnit.Medium;
+                Label3.Font.Size = FontUnit.Medium;
+                Label4.Font.Size = FontUnit.Medium;
+                Label5.Font.Size = FontUnit.Medium;
+                Label6.Font.Size = FontUnit.Medium;
+                Label7.Font.Size = FontUnit.Medium;
+                Label8.Font.Size = FontUnit.Medium;
+                Label9.Font.Size = FontUnit.Medium;
+                Label10.Font.Size = FontUnit.Medium;
+                Label11.Font.Size = FontUnit.Medium;
+                Label12.Font.Size = FontUnit.Medium;
+                Label13.Font.Size = FontUnit.Medium;
+                Label14.Font.Size = FontUnit.Medium;
+                Label15.Font.Size = FontUnit.Medium;
+                Label16.Font.Size = FontUnit.Medium;
+                Label17.Font.Size = FontUnit.Medium;
+            }
+            else if (DropDownList3.SelectedIndex.Equals(5))
+            {
+                Label1.Font.Size = FontUnit.Large;
+                Label2.Font.Size = FontUnit.Large;
+                Label3.Font.Size = FontUnit.Large;
+                Label4.Font.Size = FontUnit.Large;
+                Label5.Font.Size = FontUnit.Large;
+                Label6.Font.Size = FontUnit.Large;
+                Label7.Font.Size = FontUnit.Large;
+                Label8.Font.Size = FontUnit.Large;
+                Label9.Font.Size = FontUnit.Large;
+                Label10.Font.Size = FontUnit.Large;
+                Label11.Font.Size = FontUnit.Large;
+                Label12.Font.Size = FontUnit.Large;
+                Label13.Font.Size = FontUnit.Large;
+                Label14.Font.Size = FontUnit.Large;
+                Label15.Font.Size = FontUnit.Large;
+                Label16.Font.Size = FontUnit.Large;
+                Label17.Font.Size = FontUnit.Large;
+            }
+            else if (DropDownList3.SelectedIndex.Equals(6))
+            {
+                Label1.Font.Size = FontUnit.XLarge;
+                Label2.Font.Size = FontUnit.XLarge;
+                Label3.Font.Size = FontUnit.XLarge;
+                Label4.Font.Size = FontUnit.XLarge;
+                Label5.Font.Size = FontUnit.XLarge;
+                Label6.Font.Size = FontUnit.XLarge;
+                Label7.Font.Size = FontUnit.XLarge;
+                Label8.Font.Size = FontUnit.XLarge;
+                Label9.Font.Size = FontUnit.XLarge;
+                Label10.Font.Size = FontUnit.XLarge;
+                Label11.Font.Size = FontUnit.XLarge;
+                Label12.Font.Size = FontUnit.XLarge;
+                Label13.Font.Size = FontUnit.XLarge;
+                Label14.Font.Size = FontUnit.XLarge;
+                Label15.Font.Size = FontUnit.XLarge;
+                Label16.Font.Size = FontUnit.XLarge;
+                Label17.Font.Size = FontUnit.XLarge;
+            }
+            else if (DropDownList2.SelectedIndex.Equals(7))
+            {
+                Label1.Font.Size = FontUnit.XXLarge;
+                Label2.Font.Size = FontUnit.XXLarge;
+                Label3.Font.Size = FontUnit.XXLarge;
+                Label4.Font.Size = FontUnit.XXLarge;
+                Label5.Font.Size = FontUnit.XXLarge;
+                Label6.Font.Size = FontUnit.XXLarge;
+                Label7.Font.Size = FontUnit.XXLarge;
+                Label8.Font.Size = FontUnit.XXLarge;
+                Label9.Font.Size = FontUnit.XXLarge;
+                Label10.Font.Size = FontUnit.XXLarge;
+                Label11.Font.Size = FontUnit.XXLarge;
+                Label12.Font.Size = FontUnit.XXLarge;
+                Label13.Font.Size = FontUnit.XXLarge;
+                Label14.Font.Size = FontUnit.XXLarge;
+                Label15.Font.Size = FontUnit.XXLarge;
+                Label16.Font.Size = FontUnit.XXLarge;
+                Label17.Font.Size = FontUnit.XXLarge;
+            }
+        }
+
+        
     }
 }
