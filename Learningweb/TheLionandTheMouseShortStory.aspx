@@ -37,9 +37,12 @@
                 <asp:ListItem>x-large</asp:ListItem>
                 <asp:ListItem>xx-large</asp:ListItem>
             </asp:DropDownList>
+            <br />
+            <h2>
+                <asp:Label ID="Nstory" runat="server" style="text-align: left; font-weight: 700" Text="The Lion and The Mouse "></asp:Label>
+            </h2>
         </div>
         <div style="text-align: center">
-            <h2><strong>The Lion and The Mouse </strong></h2>
             <br />
             <img alt="" class="auto-style1" src="images%20(2)/The%20Lion%20and%20The%20Mouse%20Short%20Story/1.jpg" /><br />
             <asp:Label ID="Label1" runat="server" Text="lets start reading"></asp:Label>
@@ -102,6 +105,26 @@
             <br />
             <img alt="" class="auto-style1" src="images%20(2)/The%20Lion%20and%20The%20Mouse%20Short%20Story/17.jpg" /><br />
             <br />
+            <asp:Label ID="Label19" runat="server" Text="Please rate the story First enter your Identity"></asp:Label>
+            <br />
+            <br />
+            <asp:TextBox ID="TextID" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:DropDownList ID="DropDownList4" runat="server">
+                <asp:ListItem Value="Rating"></asp:ListItem>
+                <asp:ListItem>*</asp:ListItem>
+                <asp:ListItem>**</asp:ListItem>
+                <asp:ListItem>***</asp:ListItem>
+                <asp:ListItem>****</asp:ListItem>
+                <asp:ListItem>*****</asp:ListItem>
+            </asp:DropDownList>
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Send rate" />
+            <br />
+            <br />
+            <asp:Label ID="Label18" runat="server" Text="."></asp:Label>
             <br />
         </div>
     </form>

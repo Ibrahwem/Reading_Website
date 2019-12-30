@@ -118,6 +118,7 @@
     <Content Include="ParentsaComments.aspx" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
+    <Content Include="StoriesRateForAdmin.aspx" />
     <Content Include="Studentlogin.aspx" />
     <Content Include="Studentpage.aspx" />
     <Content Include="StudentRequests.aspx" />
@@ -217,6 +218,13 @@
     </Compile>
     <Compile Include="parentRegister.aspx.designer.cs">
       <DependentUpon>parentRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StoriesRateForAdmin.aspx.cs">
+      <DependentUpon>StoriesRateForAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoriesRateForAdmin.aspx.designer.cs">
+      <DependentUpon>StoriesRateForAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Studentlogin.aspx.cs">
       <DependentUpon>Studentlogin.aspx</DependentUpon>

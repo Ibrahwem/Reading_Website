@@ -4,11 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace Learningweb
 {
     public partial class CrocodileAndTheMonkey : System.Web.UI.Page
     {
+        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -302,6 +305,48 @@ namespace Learningweb
             }
         }
 
-        
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            string check = " select count(*) from [student] where Sidentity ='" + TextID.Text + "'";
+            SqlCommand com = new SqlCommand(check, con);
+            con.Open();
+            int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
+            con.Close();
+            if (temp == 1)
+            {
+                /*Adding new story to son list*/
+                string checks = " select count(*) from [storyrate]where Sidentity ='" + TextID.Text + "' and Storyname= '" + Nstory.Text + "'and Rate= '" + DropDownList4.Text + "'  ";
+                SqlCommand comm = new SqlCommand(checks, con);
+                con.Open();
+                int temps = Convert.ToInt32(comm.ExecuteScalar().ToString());
+                con.Close();
+                if (temps != 1)
+                {
+                    string dat = "Insert into [storyrate](Sidentity,Storyname,Rate) Values('" + TextID.Text + "','" + Nstory.Text + "','" + DropDownList4.Text + "')";
+                    SqlCommand commm = new SqlCommand(dat, con);
+                    con.Open();
+                    commm.ExecuteNonQuery();
+                    con.Close();
+                    Label8.ForeColor = System.Drawing.Color.Green;
+                    Label8.Text = "You have successfully Send the story.";
+                }
+                else
+                {
+                    Label8.ForeColor = System.Drawing.Color.Red;
+                    Label8.Text = "This Story is already Rate.";
+                }
+            }
+            else
+            {
+                Label8.ForeColor = System.Drawing.Color.Red;
+                Label8.Text = "This id doesn't exist !!.";
+            }
+        }
     }
 }
