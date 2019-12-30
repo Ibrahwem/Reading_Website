@@ -9,6 +9,7 @@ namespace Learningweb
 {
     public partial class TheLionandTheMouseShortStory : System.Web.UI.Page
     {
+        static int quick = 0;
         SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
@@ -312,6 +313,11 @@ namespace Learningweb
                     con.Open();
                     commm.ExecuteNonQuery();
                     con.Close();
+                    string datt = "Insert into [readingtime](Sidentity,storyname,storyreadingtime) Values('" + TextID.Text + "','" + Nstory.Text + "','" + Label20.Text + "')";
+                    SqlCommand commmm = new SqlCommand(datt, con);
+                    con.Open();
+                    commmm.ExecuteNonQuery();
+                    con.Close();
                     Label8.ForeColor = System.Drawing.Color.Green;
                     Label8.Text = "You have successfully Send the story.";
                 }
@@ -326,6 +332,13 @@ namespace Learningweb
                 Label8.ForeColor = System.Drawing.Color.Red;
                 Label8.Text = "This id doesn't exist !!.";
             }
+            quick = 0;
+        }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            quick++;
+            Label20.Text = quick / 60 + ":" + ((quick % 60) >= 10 ? (quick % 60).ToString() : "0" + (quick % 60));
         }
     }
 }

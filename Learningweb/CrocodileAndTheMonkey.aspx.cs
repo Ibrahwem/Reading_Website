@@ -12,7 +12,6 @@ namespace Learningweb
     public partial class CrocodileAndTheMonkey : System.Web.UI.Page
     {
         static int quick = 0;
-        static int quick2 = 1000;
         SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
