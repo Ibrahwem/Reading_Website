@@ -13,6 +13,7 @@
         <asp:Button ID="Button4" runat="server" Text="Add a story" Width="297px" />
         <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="227px" />
         <asp:Button ID="Button7" runat="server" PostBackUrl="~/StoriesRateForAdmin.aspx" Text="Stories rating" />
+        <asp:Button ID="Button8" runat="server" PostBackUrl="~/StudentsReadingTime.aspx" Text="Stories reading time" />
         <asp:Button ID="Button6" runat="server" Text="Log out" Width="221px" OnClick="Button6_Click" />
         <br />
         <br />
