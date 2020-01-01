@@ -107,6 +107,13 @@
     <Content Include="images %282%29\how to build picture\6.png" />
     <Content Include="images %282%29\how to build picture\7.png" />
     <Content Include="images %282%29\how to build picture\8.png" />
+    <Content Include="images %282%29\king michael\IMG_0055.jpg" />
+    <Content Include="images %282%29\king michael\IMG_0056.jpg" />
+    <Content Include="images %282%29\king michael\IMG_0057.jpg" />
+    <Content Include="images %282%29\king michael\IMG_0058.jpg" />
+    <Content Include="images %282%29\king michael\IMG_0059.jpg" />
+    <Content Include="images %282%29\king michael\1.png" />
+    <Content Include="images %282%29\king michael\2.png" />
     <Content Include="images %282%29\The Lion and The Mouse Short Story\1.jpg" />
     <Content Include="images %282%29\The Lion and The Mouse Short Story\10.jpg" />
     <Content Include="images %282%29\The Lion and The Mouse Short Story\11.jpg" />
@@ -131,6 +138,7 @@
     <Content Include="images %282%29\THE PARTICULAR WAY OF THE ODD MS. MCKAY\5.png" />
     <Content Include="images %282%29\THE PARTICULAR WAY OF THE ODD MS. MCKAY\6.png" />
     <Content Include="images %282%29\THE PARTICULAR WAY OF THE ODD MS. MCKAY\7.png" />
+    <Content Include="kingmichael.aspx" />
     <Content Include="ParentsaComments.aspx" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
@@ -214,6 +222,13 @@
     </Compile>
     <Compile Include="How To Build a Bratchet.aspx.designer.cs">
       <DependentUpon>How To Build a Bratchet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kingmichael.aspx.cs">
+      <DependentUpon>kingmichael.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kingmichael.aspx.designer.cs">
+      <DependentUpon>kingmichael.aspx</DependentUpon>
     </Compile>
     <Compile Include="ParentsaComments.aspx.cs">
       <DependentUpon>ParentsaComments.aspx</DependentUpon>

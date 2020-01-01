@@ -318,8 +318,8 @@ namespace Learningweb
                     con.Open();
                     commmm.ExecuteNonQuery();
                     con.Close();
-                    Label8.ForeColor = System.Drawing.Color.Green;
-                    Label8.Text = "You have successfully Send the story.";
+                    Label18.ForeColor = System.Drawing.Color.Green;
+                    Label18.Text = "You have successfully Send the story.";
                 }
                 else
                 {
