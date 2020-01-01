@@ -323,14 +323,14 @@ namespace Learningweb
                 }
                 else
                 {
-                    Label8.ForeColor = System.Drawing.Color.Red;
-                    Label8.Text = "This Story is already Rate.";
+                    Label18.ForeColor = System.Drawing.Color.Red;
+                    Label18.Text = "This Story is already Rate.";
                 }
             }
             else
             {
-                Label8.ForeColor = System.Drawing.Color.Red;
-                Label8.Text = "This id doesn't exist !!.";
+                Label18.ForeColor = System.Drawing.Color.Red;
+                Label18.Text = "This id doesn't exist !!.";
             }
             quick = 0;
         }

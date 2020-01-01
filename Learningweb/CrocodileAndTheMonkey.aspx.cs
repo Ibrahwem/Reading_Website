@@ -335,19 +335,19 @@ namespace Learningweb
                     con.Open();
                     commmm.ExecuteNonQuery();
                     con.Close();
-                    Label8.ForeColor = System.Drawing.Color.Green;
-                    Label8.Text = "You have successfully Send the story.";
+                    Label18.ForeColor = System.Drawing.Color.Green;
+                    Label18.Text = "You have successfully Send the story.";
                 }
                 else
                 {
-                    Label8.ForeColor = System.Drawing.Color.Red;
-                    Label8.Text = "This Story is already Rate.";
+                    Label18.ForeColor = System.Drawing.Color.Red;
+                    Label18.Text = "This Story is already Rate.";
                 }
             }
             else
             {
-                Label8.ForeColor = System.Drawing.Color.Red;
-                Label8.Text = "This id doesn't exist !!.";
+                Label18.ForeColor = System.Drawing.Color.Red;
+                Label18.Text = "This id doesn't exist !!.";
             }
             quick = 0;
         }
