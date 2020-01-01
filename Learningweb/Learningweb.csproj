@@ -80,6 +80,7 @@
     <Content Include="CrocodileAndTheMonkey.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
+    <Content Include="How To Build a Bratchet.aspx" />
     <Content Include="images %282%29\Crocodile And The Monkey\1.jpg" />
     <Content Include="images %282%29\Crocodile And The Monkey\10.jpg" />
     <Content Include="images %282%29\Crocodile And The Monkey\11.jpg" />
@@ -98,6 +99,14 @@
     <Content Include="images %282%29\Crocodile And The Monkey\7.jpg" />
     <Content Include="images %282%29\Crocodile And The Monkey\8.jpg" />
     <Content Include="images %282%29\Crocodile And The Monkey\9.jpg" />
+    <Content Include="images %282%29\how to build picture\1.png" />
+    <Content Include="images %282%29\how to build picture\2.png" />
+    <Content Include="images %282%29\how to build picture\3.png" />
+    <Content Include="images %282%29\how to build picture\4.png" />
+    <Content Include="images %282%29\how to build picture\5.png" />
+    <Content Include="images %282%29\how to build picture\6.png" />
+    <Content Include="images %282%29\how to build picture\7.png" />
+    <Content Include="images %282%29\how to build picture\8.png" />
     <Content Include="images %282%29\The Lion and The Mouse Short Story\1.jpg" />
     <Content Include="images %282%29\The Lion and The Mouse Short Story\10.jpg" />
     <Content Include="images %282%29\The Lion and The Mouse Short Story\11.jpg" />
@@ -190,6 +199,13 @@
     </Compile>
     <Compile Include="Homepage.aspx.designer.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="How To Build a Bratchet.aspx.cs">
+      <DependentUpon>How To Build a Bratchet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="How To Build a Bratchet.aspx.designer.cs">
+      <DependentUpon>How To Build a Bratchet.aspx</DependentUpon>
     </Compile>
     <Compile Include="ParentsaComments.aspx.cs">
       <DependentUpon>ParentsaComments.aspx</DependentUpon>
