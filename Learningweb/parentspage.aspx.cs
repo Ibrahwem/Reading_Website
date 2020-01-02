@@ -9,7 +9,8 @@ namespace Learningweb
 {
     public partial class parentsuggestion : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
+        readonly SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -17,7 +18,7 @@ namespace Learningweb
 
         protected void Button9_Click(object sender, EventArgs e)
         {
-            string dat = "Insert into [suggestions](comments) Values('" +comment.Text+ "')";
+            string dat = "Insert into [suggestions](comment,Parentname,rate) Values('" +comment.Text+ "','"+DropDownList5.Text+"','"+DropDownList4.Text+"')";
             SqlCommand com = new SqlCommand(dat, con);
             con.Open();
             com.ExecuteNonQuery();
