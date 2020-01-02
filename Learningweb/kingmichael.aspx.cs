@@ -202,11 +202,16 @@ namespace Learningweb
                     con.Close();
                     Label18.ForeColor = System.Drawing.Color.Green;
                     Label18.Text = "You have successfully Send the story.";
+                    quick = 0;
+                    Response.Redirect("finishreading.aspx");
                 }
                 else
                 {
                     Label18.ForeColor = System.Drawing.Color.Red;
                     Label18.Text = "This Story is already Rate.";
+                    quick = 0;
+                    Response.Redirect("Studentpage.aspx");
+
                 }
             }
             else
@@ -214,7 +219,7 @@ namespace Learningweb
                 Label18.ForeColor = System.Drawing.Color.Red;
                 Label18.Text = "This id doesn't exist !!.";
             }
-            quick = 0;
+            
         }
     }
 }

@@ -40,6 +40,20 @@ namespace Learningweb
         {
             Response.Redirect("Usersdetails.aspx");
         }
-        
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

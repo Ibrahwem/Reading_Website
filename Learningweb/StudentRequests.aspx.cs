@@ -53,5 +53,10 @@ namespace Learningweb
                 Label3.Text = "This id doesn't exist !!.";
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("parentspage.aspx");
+        }
     }
 }

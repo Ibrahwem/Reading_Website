@@ -15,6 +15,7 @@ namespace Learningweb
 
         }
 
+        
         protected void Button1_Click(object sender, EventArgs e)
         {
             string check = " select count(*) from [student] where Sidentity ='" + TextBox2.Text + "'";
@@ -53,6 +54,11 @@ namespace Learningweb
             }
 
 
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Studentpage.aspx");
         }
     }
 }

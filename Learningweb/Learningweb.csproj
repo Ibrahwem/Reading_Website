@@ -78,6 +78,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="CrocodileAndTheMonkey.aspx" />
+    <Content Include="finishreading.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
     <Content Include="How To Build a Bratchet.aspx" />
@@ -107,6 +108,7 @@
     <Content Include="images %282%29\how to build picture\6.png" />
     <Content Include="images %282%29\how to build picture\7.png" />
     <Content Include="images %282%29\how to build picture\8.png" />
+    <Content Include="images %282%29\how to build picture\cong.jpg" />
     <Content Include="images %282%29\king michael\IMG_0055.jpg" />
     <Content Include="images %282%29\king michael\IMG_0056.jpg" />
     <Content Include="images %282%29\king michael\IMG_0057.jpg" />
@@ -205,6 +207,13 @@
     </Compile>
     <Compile Include="CrocodileAndTheMonkey.aspx.designer.cs">
       <DependentUpon>CrocodileAndTheMonkey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="finishreading.aspx.cs">
+      <DependentUpon>finishreading.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="finishreading.aspx.designer.cs">
+      <DependentUpon>finishreading.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
