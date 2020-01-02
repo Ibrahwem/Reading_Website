@@ -6,14 +6,22 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
+        div {
+            background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F313633561543365148%2F&psig=AOvVaw2KV_HU0IbC3FWPHCqe1UFN&ust=1577966306260000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjniuCs4uYCFQAAAAAdAAAAABAD");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
         .auto-style1 {
             width: 975px;
             height: 486px;
         }
+
         .auto-style2 {
             width: 962px;
             height: 494px;
         }
+
         .auto-style3 {
             width: 959px;
             height: 534px;
