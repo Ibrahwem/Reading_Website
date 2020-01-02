@@ -71,6 +71,7 @@
     <Content Include="adminInformation.aspx" />
     <Content Include="Adminlogin.aspx" />
     <Content Include="AdventureStories.aspx" />
+    <Content Include="AdventureStoriesD.aspx" />
     <Content Include="AgreedStoriesByParents.aspx" />
     <Content Include="AnimalStories.aspx" />
     <Content Include="App_Data\Database1.mdf" />
@@ -153,10 +154,12 @@
     <Content Include="Suggeststory.aspx" />
     <Content Include="TheLionandTheMouseShortStory.aspx" />
     <Content Include="ThinkingStories.aspx" />
+    <Content Include="ThinkingStoriesD.aspx" />
     <Content Include="Usersdetails.aspx" />
     <Content Include="Web.config" />
     <Content Include="ParentLogin.aspx" />
     <Content Include="THE PARTICULAR WAY OF THE ODD MS. MCKAY.aspx" />
+    <Content Include="AnimalStoriesD.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.aspx.cs">
@@ -186,6 +189,13 @@
     </Compile>
     <Compile Include="AdventureStories.aspx.designer.cs">
       <DependentUpon>AdventureStories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdventureStoriesD.aspx.cs">
+      <DependentUpon>AdventureStoriesD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdventureStoriesD.aspx.designer.cs">
+      <DependentUpon>AdventureStoriesD.aspx</DependentUpon>
     </Compile>
     <Compile Include="AgreedStoriesByParents.aspx.cs">
       <DependentUpon>AgreedStoriesByParents.aspx</DependentUpon>
@@ -331,6 +341,13 @@
     <Compile Include="ThinkingStories.aspx.designer.cs">
       <DependentUpon>ThinkingStories.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ThinkingStoriesD.aspx.cs">
+      <DependentUpon>ThinkingStoriesD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThinkingStoriesD.aspx.designer.cs">
+      <DependentUpon>ThinkingStoriesD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Usersdetails.aspx.cs">
       <DependentUpon>Usersdetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -344,6 +361,13 @@
     </Compile>
     <Compile Include="THE PARTICULAR WAY OF THE ODD MS. MCKAY.aspx.designer.cs">
       <DependentUpon>THE PARTICULAR WAY OF THE ODD MS. MCKAY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalStoriesD.aspx.cs">
+      <DependentUpon>AnimalStoriesD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnimalStoriesD.aspx.designer.cs">
+      <DependentUpon>AnimalStoriesD.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

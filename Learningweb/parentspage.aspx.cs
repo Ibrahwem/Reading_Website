@@ -33,11 +33,11 @@ namespace Learningweb
         protected void DropDownList1_SelectedIndexChanged1(object sender, EventArgs e)
         {
             if (DropDownList1.SelectedIndex.Equals(1))
-                Response.Redirect("ThinkingStories.aspx");
+                Response.Redirect("ThinkingStoriesD.aspx");
             else if (DropDownList1.SelectedIndex.Equals(2))
-                Response.Redirect("AdventureStories.aspx");
+                Response.Redirect("AdventureStoriesD.aspx");
             else if (DropDownList1.SelectedIndex.Equals(3))
-                Response.Redirect("AnimalStories.aspx");
+                Response.Redirect("AnimalStoriesD.aspx");
         }
 
         
