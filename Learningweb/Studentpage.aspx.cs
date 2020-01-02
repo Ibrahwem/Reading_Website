@@ -43,5 +43,15 @@ namespace Learningweb
         {
             Response.Redirect("AgreedStoriesByParents.aspx");
         }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Label1.Text = DateTime.Now + "";
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Usersdetails.aspx");
+        }
     }
 }

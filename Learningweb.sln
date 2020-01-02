@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learningweb", "Learningweb\Learningweb.csproj", "{5A545972-3647-4324-A1EB-05DA186FB5C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{DB364613-B2E2-492A-9065-FCD7B479D564}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{CA84BCC1-E122-4BB5-B2AD-B39F4C5AEC1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{5A545972-3647-4324-A1EB-05DA186FB5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A545972-3647-4324-A1EB-05DA186FB5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A545972-3647-4324-A1EB-05DA186FB5C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB364613-B2E2-492A-9065-FCD7B479D564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB364613-B2E2-492A-9065-FCD7B479D564}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB364613-B2E2-492A-9065-FCD7B479D564}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB364613-B2E2-492A-9065-FCD7B479D564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA84BCC1-E122-4BB5-B2AD-B39F4C5AEC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA84BCC1-E122-4BB5-B2AD-B39F4C5AEC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA84BCC1-E122-4BB5-B2AD-B39F4C5AEC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA84BCC1-E122-4BB5-B2AD-B39F4C5AEC1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

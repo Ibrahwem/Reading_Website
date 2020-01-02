@@ -40,6 +40,20 @@ namespace Learningweb
         {
             Response.Redirect("Usersdetails.aspx");
         }
-        
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void Timer1_Tick1(object sender, EventArgs e)
+        {
+            Label1.Text = DateTime.Now + "";
+        }
+
+        protected void Button9_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("aboutus.aspx");
+        }
     }
 }
