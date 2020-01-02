@@ -26,10 +26,7 @@ namespace Learningweb
             Response.Redirect("ParentsaComments.aspx");
         }
 
-        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
 
         protected void Button6_Click(object sender, EventArgs e)
         {
@@ -40,13 +37,6 @@ namespace Learningweb
         {
             Response.Redirect("Usersdetails.aspx");
         }
-
-<<<<<<< HEAD
-        protected void Timer1_Tick(object sender, EventArgs e)
-        {
-            
-        }
-
         protected void Timer1_Tick1(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now + "";
@@ -55,21 +45,16 @@ namespace Learningweb
         protected void Button9_Click(object sender, EventArgs e)
         {
             Response.Redirect("aboutus.aspx");
-=======
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-
         }
 
         protected void Button7_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("StoriesRateForAdmin.aspx");
         }
 
         protected void Button8_Click(object sender, EventArgs e)
         {
-
->>>>>>> 47c0d4d33e9b56f6ea5199e855b7fa2be82434c4
+            Response.Redirect("StudentsReadingTime.aspx");
         }
     }
 }
