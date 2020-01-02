@@ -72,6 +72,7 @@
     <Content Include="adminInformation.aspx" />
     <Content Include="Adminlogin.aspx" />
     <Content Include="AdventureStories.aspx" />
+    <Content Include="AdventureStoriesD.aspx" />
     <Content Include="AgreedStoriesByParents.aspx" />
     <Content Include="AnimalStories.aspx" />
     <Content Include="App_Data\Database1.mdf" />
@@ -79,6 +80,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="CrocodileAndTheMonkey.aspx" />
+    <Content Include="finishreading.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Homepage.aspx" />
     <Content Include="How To Build a Bratchet.aspx" />
@@ -108,6 +110,7 @@
     <Content Include="images %282%29\how to build picture\6.png" />
     <Content Include="images %282%29\how to build picture\7.png" />
     <Content Include="images %282%29\how to build picture\8.png" />
+    <Content Include="images %282%29\how to build picture\cong.jpg" />
     <Content Include="images %282%29\king michael\IMG_0055.jpg" />
     <Content Include="images %282%29\king michael\IMG_0056.jpg" />
     <Content Include="images %282%29\king michael\IMG_0057.jpg" />
@@ -152,10 +155,12 @@
     <Content Include="Suggeststory.aspx" />
     <Content Include="TheLionandTheMouseShortStory.aspx" />
     <Content Include="ThinkingStories.aspx" />
+    <Content Include="ThinkingStoriesD.aspx" />
     <Content Include="Usersdetails.aspx" />
     <Content Include="Web.config" />
     <Content Include="ParentLogin.aspx" />
     <Content Include="THE PARTICULAR WAY OF THE ODD MS. MCKAY.aspx" />
+    <Content Include="AnimalStoriesD.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aboutus.aspx.cs">
@@ -193,6 +198,13 @@
     <Compile Include="AdventureStories.aspx.designer.cs">
       <DependentUpon>AdventureStories.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdventureStoriesD.aspx.cs">
+      <DependentUpon>AdventureStoriesD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdventureStoriesD.aspx.designer.cs">
+      <DependentUpon>AdventureStoriesD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AgreedStoriesByParents.aspx.cs">
       <DependentUpon>AgreedStoriesByParents.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -213,6 +225,13 @@
     </Compile>
     <Compile Include="CrocodileAndTheMonkey.aspx.designer.cs">
       <DependentUpon>CrocodileAndTheMonkey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="finishreading.aspx.cs">
+      <DependentUpon>finishreading.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="finishreading.aspx.designer.cs">
+      <DependentUpon>finishreading.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -330,6 +349,13 @@
     <Compile Include="ThinkingStories.aspx.designer.cs">
       <DependentUpon>ThinkingStories.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ThinkingStoriesD.aspx.cs">
+      <DependentUpon>ThinkingStoriesD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThinkingStoriesD.aspx.designer.cs">
+      <DependentUpon>ThinkingStoriesD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Usersdetails.aspx.cs">
       <DependentUpon>Usersdetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -343,6 +369,13 @@
     </Compile>
     <Compile Include="THE PARTICULAR WAY OF THE ODD MS. MCKAY.aspx.designer.cs">
       <DependentUpon>THE PARTICULAR WAY OF THE ODD MS. MCKAY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalStoriesD.aspx.cs">
+      <DependentUpon>AnimalStoriesD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnimalStoriesD.aspx.designer.cs">
+      <DependentUpon>AnimalStoriesD.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

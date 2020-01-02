@@ -22,7 +22,7 @@ namespace Learningweb
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            disp_data();
+            Response.Redirect("admin.aspx");
         }
         public void disp_data()
         {

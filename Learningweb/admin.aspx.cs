@@ -41,6 +41,7 @@ namespace Learningweb
             Response.Redirect("Usersdetails.aspx");
         }
 
+<<<<<<< HEAD
         protected void Timer1_Tick(object sender, EventArgs e)
         {
             
@@ -54,6 +55,21 @@ namespace Learningweb
         protected void Button9_Click(object sender, EventArgs e)
         {
             Response.Redirect("aboutus.aspx");
+=======
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> 47c0d4d33e9b56f6ea5199e855b7fa2be82434c4
         }
     }
 }

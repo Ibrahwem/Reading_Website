@@ -9,11 +9,10 @@
 <body>
     <form id="form1" runat="server">
         <asp:Button ID="Button2" runat="server" Text="Users details" Width="253px" OnClick="Button2_Click" />
-        <asp:Button ID="Button3" runat="server" Text="Categories" Width="245px" />
-        <asp:Button ID="Button4" runat="server" Text="Add a story" Width="297px" />
+        <asp:Button ID="Button3" runat="server" Text="Categories" Width="245px" OnClick="Button3_Click" />
         <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="227px" />
-        <asp:Button ID="Button7" runat="server" PostBackUrl="~/StoriesRateForAdmin.aspx" Text="Stories rating" />
-        <asp:Button ID="Button8" runat="server" PostBackUrl="~/StudentsReadingTime.aspx" Text="Stories reading time" />
+        <asp:Button ID="Button7" runat="server" PostBackUrl="~/StoriesRateForAdmin.aspx" Text="Stories rating" OnClick="Button7_Click" />
+        <asp:Button ID="Button8" runat="server" PostBackUrl="~/StudentsReadingTime.aspx" Text="Stories reading time" OnClick="Button8_Click" />
         <asp:Button ID="Button6" runat="server" Text="Log out" Width="221px" OnClick="Button6_Click" />
         <br />
         <br />
