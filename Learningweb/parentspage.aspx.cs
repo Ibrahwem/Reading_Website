@@ -77,5 +77,10 @@ namespace Learningweb
         {
             Response.Redirect("StudentReadingTimeForParents.aspx");
         }
+
+        protected void Button12_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ParentSendMessage.aspx");
+        }
     }
 }

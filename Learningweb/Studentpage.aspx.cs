@@ -53,5 +53,10 @@ namespace Learningweb
         {
             Response.Redirect("Usersdetails.aspx");
         }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("StudentMessages.aspx");
+        }
     }
 }
