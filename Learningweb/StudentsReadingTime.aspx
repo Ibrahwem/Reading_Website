@@ -28,7 +28,7 @@
                 <SortedDescendingCellStyle BackColor="#D6DFDF" />
                 <SortedDescendingHeaderStyle BackColor="#002876" />
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [Sidentity], [storyname], [storyreadingtime] FROM [readingtime]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [Sidentity], [storyname], [storyreadingtime] FROM [readingtime]" OnSelecting="SqlDataSource1_Selecting"></asp:SqlDataSource>
         </div>
     </form>
 </body>
