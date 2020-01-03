@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="Button5" runat="server" Height="34px" Text="Son's Actions" Width="189px" />
+            <asp:Button ID="Button5" runat="server" Height="34px" Text="Check the son reading time and which stories did he read" Width="428px" OnClick="Button5_Click" />
             <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="storycategory" DataValueField="storycategory" Height="34px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged1" style="margin-left: 0px" Width="165px">
                 <asp:ListItem>category</asp:ListItem>
                 <asp:ListItem>Thinking stories</asp:ListItem>
