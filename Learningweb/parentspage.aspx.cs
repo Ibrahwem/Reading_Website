@@ -18,12 +18,34 @@ namespace Learningweb
 
         protected void Button9_Click(object sender, EventArgs e)
         {
-            string dat = "Insert into [suggestions](comment,Parentname,rate) Values('" +comment.Text+ "','"+DropDownList5.Text+"','"+DropDownList4.Text+"')";
-            SqlCommand com = new SqlCommand(dat, con);
-            con.Open();
-            com.ExecuteNonQuery();
-            con.Close();
-            Response.Redirect("parentspage.aspx");
+            if (DropDownList4.Text != "Rating" && comment.Text != "")
+            {
+                string dat = "Insert into [suggestions](comment,Parentname,rate) Values('" + comment.Text + "','" + DropDownList5.Text + "','" + DropDownList4.Text + "')";
+                SqlCommand com = new SqlCommand(dat, con);
+                con.Open();
+                com.ExecuteNonQuery();
+                con.Close();
+                comment.Text = "";
+                Label2.Text = "You have Send your suggests";
+            }
+            else 
+            {
+                if (DropDownList4.Text == "Rating" && comment.Text == "")
+                {
+                    Label2.Text = "please enter your rate and write a Suggestions";
+                }
+                else 
+                    if (DropDownList4.Text == "Rating")
+                      Label2.Text = "please enter your rate";
+                else
+                    if (comment.Text == "")
+                        Label2.Text = "please write a suggestions";
+               
+                    
+
+            }
+
+           // Response.Redirect("parentspage.aspx");
         }
        
         protected void Button7_Click(object sender, EventArgs e)
@@ -49,6 +71,16 @@ namespace Learningweb
         protected void Button11_Click(object sender, EventArgs e)
         {
             Response.Redirect("aboutus.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("StudentReadingTimeForParents.aspx");
+        }
+
+        protected void Button12_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ParentSendMessage.aspx");
         }
     }
 }

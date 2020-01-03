@@ -144,10 +144,12 @@
     <Content Include="images %282%29\THE PARTICULAR WAY OF THE ODD MS. MCKAY\7.png" />
     <Content Include="kingmichael.aspx" />
     <Content Include="ParentsaComments.aspx" />
+    <Content Include="ParentSendMessage.aspx" />
     <Content Include="parentspage.aspx" />
     <Content Include="parentRegister.aspx" />
     <Content Include="StoriesRateForAdmin.aspx" />
     <Content Include="Studentlogin.aspx" />
+    <Content Include="StudentMessages.aspx" />
     <Content Include="Studentpage.aspx" />
     <Content Include="StudentRequests.aspx" />
     <Content Include="StudentsReadingTime.aspx" />
@@ -264,6 +266,13 @@
     <Compile Include="ParentsaComments.aspx.designer.cs">
       <DependentUpon>ParentsaComments.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ParentSendMessage.aspx.cs">
+      <DependentUpon>ParentSendMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParentSendMessage.aspx.designer.cs">
+      <DependentUpon>ParentSendMessage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="parentspage.aspx.cs">
       <DependentUpon>parentspage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -299,6 +308,13 @@
     </Compile>
     <Compile Include="Studentlogin.aspx.designer.cs">
       <DependentUpon>Studentlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentMessages.aspx.cs">
+      <DependentUpon>StudentMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentMessages.aspx.designer.cs">
+      <DependentUpon>StudentMessages.aspx</DependentUpon>
     </Compile>
     <Compile Include="Studentpage.aspx.cs">
       <DependentUpon>Studentpage.aspx</DependentUpon>

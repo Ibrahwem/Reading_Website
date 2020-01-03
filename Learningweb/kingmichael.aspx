@@ -83,17 +83,17 @@
             <br />
             <br />
             <p class="auto-style1">
-                <asp:Label ID="Label1" runat="server">“Michael the Marvelous”, king of the land,
+                <asp:Label ID="Label1" runat="server">“Michael the Marvelous”, king of the land,<br/><br/>
 
-Son of the world famous, “Robert the Grand”,
+Son of the world famous, “Robert the Grand”,<br/><br/>
 
-Was enjoying the night that he turned thirty-two,
+Was enjoying the night that he turned thirty-two,<br/><br/>
 
-As the people arrived for the party he threw.
+As the people arrived for the party he threw.<br/><br/>
 
-The Princes of Rya and Princess of Gome,
+The Princes of Rya and Princess of Gome,<br/><br/>
 
-Were guests in the castle, his majesty’s home.</asp:Label>
+Were guests in the castle, his majesty’s home.<br/><br/></asp:Label>
             </p>
             <p class="auto-style1">
                 <img class="auto-style9" src="images%20(2)/king%20michael/IMG_0056.jpg" /></p>
@@ -103,332 +103,332 @@ Were guests in the castle, his majesty’s home.</asp:Label>
             <p class="auto-style1">
                 <img class="auto-style3" src="images%20(2)/king%20michael/IMG_0055.jpg" /></p>
             <p class="auto-style1">
-                <asp:Label ID="Label3" runat="server" Text="Label">The King and the Queen danced a fanciful jig
+                <asp:Label ID="Label3" runat="server" Text="Label">The King and the Queen danced a fanciful jig<br/><br/>
 
-While Duchess Von Burkenham ate the roast pig.
-Not a dry eye was found when the Queen made her toast
-The glasses were raised in salute of their host.
-But everything stopped when a black cloud appeared,
-And from it, a haggard old man slowly neared.
-Along by his side walked a golden-beaked duck.
-(The cook tried to picture it roasted and plucked).
-He donned a blue robe and a toppling hat,
-And he hobbled his way up to where the King sat.
-“My sire, I ask for your ear, if I may,
-To offer a gift to you, on your birthday.
-This duck grants a wish, when you ask it aloud.”
-And with that, the old man disappeared in his cloud.
-With a waddle, a hop, and a medieval QUACK,
-The duck sat himself on the mighty King’s lap.
-The King felt part silly, but mostly confused.
-Though, cancel the party? He simply refused!</asp:Label>
+While Duchess Von Burkenham ate the roast pig.<br/><br/>
+Not a dry eye was found when the Queen made her toast<br/><br/>
+The glasses were raised in salute of their host.<br/><br/>
+But everything stopped when a black cloud appeared,<br/><br/>
+And from it, a haggard old man slowly neared.<br/><br/>
+Along by his side walked a golden-beaked duck.<br/><br/>
+(The cook tried to picture it roasted and plucked).<br/><br/>
+He donned a blue robe and a toppling hat,<br/><br/>
+And he hobbled his way up to where the King sat.<br/><br/>
+“My sire, I ask for your ear, if I may,<br/><br/>
+To offer a gift to you, on your birthday.<br/><br/>
+This duck grants a wish, when you ask it aloud.”<br/><br/>
+And with that, the old man disappeared in his cloud.<br/><br/>
+With a waddle, a hop, and a medieval QUACK,<br/><br/>
+The duck sat himself on the mighty King’s lap.<br/><br/>
+The King felt part silly, but mostly confused.<br/><br/>
+Though, cancel the party? He simply refused!<br/><br/></asp:Label>
             </p>
             <p class="auto-style1">
                 <img class="auto-style4" src="images%20(2)/king%20michael/IMG_0059.jpg" /></p>
             <p class="auto-style1">
-                <asp:Label ID="Label4" runat="server" Text="Label">The king got more gifts, never peaking inside,
+                <asp:Label ID="Label4" runat="server" Text="Label">The king got more gifts, never peaking inside,<br/><br/>
 
-While the duck waited patiently, by the King’s side.
-
- 
-
-Until, with a laugh, Michael spoke to a friend,
-
-“I wish, how I wish, that this night would not end!”
+While the duck waited patiently, by the King’s side.<br/><br/>
 
  
 
-When you wish for a wish, you must mind every word,
+Until, with a laugh, Michael spoke to a friend,<br/><br/>
 
-For a magic-wish duck is a powerful bird…
-
- 
-
-The duck’s magic beak turned from golden to blue.
-
-The wish had been granted, so off the duck flew.
+“I wish, how I wish, that this night would not end!”<br/><br/>
 
  
 
-As wishes had been, this was one of the worst.
+When you wish for a wish, you must mind every word,<br/><br/>
 
-From that moment on, the poor kingdom was cursed.
-
- 
-
-With morning came darkness, no warmth and no sun.
-
-The night would not leave, for the damage was done.
+For a magic-wish duck is a powerful bird…<br/><br/>
 
  
 
-Each morning King Michael had hoped to see light.
+The duck’s magic beak turned from golden to blue.<br/><br/>
 
-While the crops withered slowly, in shadow of night.
-
- 
-
-The King offered rubies and emeralds galore,
-
-To the knight who would bring the old man to his door.
+The wish had been granted, so off the duck flew.<br/><br/>
 
  
 
-The hunters went forth on a duck-finding quest.
+As wishes had been, this was one of the worst.<br/><br/>
 
-Until both were captured, the king would not rest.</asp:Label>
+From that moment on, the poor kingdom was cursed.<br/><br/>
+
+ 
+
+With morning came darkness, no warmth and no sun.<br/><br/>
+
+The night would not leave, for the damage was done.<br/><br/>
+
+ 
+
+Each morning King Michael had hoped to see light.<br/><br/>
+
+While the crops withered slowly, in shadow of night.<br/><br/>
+
+ 
+
+The King offered rubies and emeralds galore,<br/><br/>
+
+To the knight who would bring the old man to his door.<br/><br/>
+
+ 
+
+The hunters went forth on a duck-finding quest.<br/><br/>
+
+Until both were captured, the king would not rest.<br/><br/></asp:Label>
             </p>
             <p class="auto-style1">
                 <img class="auto-style5" src="images%20(2)/king%20michael/IMG_0058.jpg" /></p>
             <p class="auto-style1">
-                <asp:Label ID="Label5" runat="server" Text="Label">But no one had seen the duck’s gold-colored beak,
+                <asp:Label ID="Label5" runat="server" Text="Label">But no one had seen the duck’s gold-colored beak,<br/><br/>
 
-And the search for the man went on week after week.
-
- 
-
-Off in the forest, a small cabin stood.
-
-The old man had built it with amber black wood.
+And the search for the man went on week after week.<br/><br/>
 
  
 
-For he was a wizard, named “Sonto the Bad”,
+Off in the forest, a small cabin stood.<br/><br/>
 
-Who’d been banished by Robert, good King Michael’s dad.
-
- 
-
-By Sonto’s side, sat his duck and a box,
-
-A box with a trio of tri-colored locks.
+The old man had built it with amber black wood.<br/><br/>
 
  
 
-Inside of the box, Sonto locked up the sun.
+For he was a wizard, named “Sonto the Bad”,<br/><br/>
 
-And magic, just magic, could make this undone.</asp:Label>
+Who’d been banished by Robert, good King Michael’s dad.<br/><br/>
+
+ 
+
+By Sonto’s side, sat his duck and a box,<br/><br/>
+
+A box with a trio of tri-colored locks.<br/><br/>
+
+ 
+
+Inside of the box, Sonto locked up the sun.<br/><br/>
+
+And magic, just magic, could make this undone.<br/><br/></asp:Label>
             </p>
             <p class="auto-style1">
                 <img class="auto-style6" src="images%20(2)/king%20michael/IMG_0057.jpg" /></p>
             <p class="auto-style1">
-                <asp:Label ID="Label6" runat="server" Text="Label">Weeks became months, and the sun never shone.
+                <asp:Label ID="Label6" runat="server" Text="Label">Weeks became months, and the sun never shone.<br/><br/>
 
-The peasants were angry and started to groan.
-
- 
-
-Finally, Michael could take it no more.
-
-He would go fix things and settle this score!
+The peasants were angry and started to groan.<br/><br/>
 
  
 
-So rarely did Kings travel solo by horse,
+Finally, Michael could take it no more.<br/><br/>
 
-But Michael charged on, and he stayed on his course.
-
- 
-
-The council had urged him that east would be best,
-
-But the King disagreed, and rode off to the west.
+He would go fix things and settle this score!<br/><br/>
 
  
 
-The road was not safe, filled with perilous foes,
+So rarely did Kings travel solo by horse,<br/><br/>
 
-Like armies of warthogs and red forest trolls.
-
- 
-
-He battled these creatures without any fear,
-
-In brave, kingly ways that are not mentioned here.
+But Michael charged on, and he stayed on his course.<br/><br/>
 
  
 
-One evening the King paused to look at his map,
+The council had urged him that east would be best,<br/><br/>
 
-And somehow, instead, he slipped into a nap.
-
- 
-
-He slept rather soundly on leaf-covered ground,
-
-And awoke from his dream when he heard a loud sound.
+But the King disagreed, and rode off to the west.<br/><br/>
 
  
 
-When he looked round a tree, Michael spotted the source.
+The road was not safe, filled with perilous foes,<br/><br/>
 
-“A cabin!” he whispered, and tied up his horse.
-
- 
-
-Up to the window, he creeped and he crept.
-
-When he saw the old wizard, he cheered and he lept!
+Like armies of warthogs and red forest trolls.<br/><br/>
 
  
 
-“I found you!” he shouted, and burst through the door.
+He battled these creatures without any fear,<br/><br/>
 
-(Though a king should know better than manners so poor).
-
- 
-
-He insisted the wizard reverse what he’d done,
-
-Then he took back his wish and demanded the sun.
+In brave, kingly ways that are not mentioned here.<br/><br/>
 
  
 
-“I’d rather eat wormtoads than do what you say,
+One evening the King paused to look at his map,<br/><br/>
 
-But I offer you this, a small game we can play.
-
- 
-
-Inside of this box lies the magic you seek.”
-
-Sonto grinned wide and continued to speak.
+And somehow, instead, he slipped into a nap.<br/><br/>
 
  
 
-“Three keys for three locks, are the only way in.
+He slept rather soundly on leaf-covered ground,<br/><br/>
 
-Answer three riddles, unlock them and win.
-
-
-
-But if you should fail, or not answer in time,
-
-Your title is forfeit, your kingdom is mine!”
+And awoke from his dream when he heard a loud sound.<br/><br/>
 
  
 
-A king must be wise to rule over a nation,
+When he looked round a tree, Michael spotted the source.<br/><br/>
 
-So, Michael was ready, without hesitation.
-
- 
-
-They both took a seat, and the duck gave a glare.
-
-(The King, without knowing, had taken his chair).
+“A cabin!” he whispered, and tied up his horse.<br/><br/>
 
  
 
-The box was between them, it sat in the middle.
+Up to the window, he creeped and he crept.<br/><br/>
 
-Sonto spoke first, to recite the first riddle.
-
- 
-
-“I climb up a hill and reach out to the sky,
-
-And still you are taller- I ask, who am I?”
+When he saw the old wizard, he cheered and he lept!<br/><br/>
 
  
 
-“An ant,” said the king, as the old wizard frowned
+“I found you!” he shouted, and burst through the door.<br/><br/>
 
-“Whose hill only sits but an inch off the ground.”
+(Though a king should know better than manners so poor).<br/><br/>
+
+ 
+
+He insisted the wizard reverse what he’d done,<br/><br/>
+
+Then he took back his wish and demanded the sun.<br/><br/>
+
+ 
+
+“I’d rather eat wormtoads than do what you say,<br/><br/>
+
+But I offer you this, a small game we can play.<br/><br/>
+
+ 
+
+Inside of this box lies the magic you seek.”<br/><br/>
+
+Sonto grinned wide and continued to speak.<br/><br/>
+
+ 
+
+“Three keys for three locks, are the only way in.<br/><br/>
+
+Answer three riddles, unlock them and win.<br/><br/>
+
+
+
+But if you should fail, or not answer in time,<br/><br/>
+
+Your title is forfeit, your kingdom is mine!”<br/><br/>
+
+ 
+
+A king must be wise to rule over a nation,<br/><br/>
+
+So, Michael was ready, without hesitation.<br/><br/>
+
+ 
+
+They both took a seat, and the duck gave a glare.<br/><br/>
+
+(The King, without knowing, had taken his chair).<br/><br/>
+
+ 
+
+The box was between them, it sat in the middle.<br/><br/>
+
+Sonto spoke first, to recite the first riddle.<br/><br/>
+
+ 
+
+“I climb up a hill and reach out to the sky,<br/><br/>
+
+And still you are taller- I ask, who am I?”<br/><br/>
+
+ 
+
+“An ant,” said the king, as the old wizard frowned<br/><br/>
+
+“Whose hill only sits but an inch off the ground.”<br/><br/>
 
  
 
  
 
-“Sonto the Bad” muttered, “Well…lucky guess.
+“Sonto the Bad” muttered, “Well…lucky guess.<br/><br/>
 
-We’ll see how you handle the riddle up next.”
-
- 
-
-“There’s nothing as large, not on land or at sea,
-
-But you won’t feel my weight, when you rest under me”
+We’ll see how you handle the riddle up next.”<br/><br/>
 
  
 
-The King answered back with the promptest reply,
+“There’s nothing as large, not on land or at sea,<br/><br/>
 
-“Enormous and weightless, you must be the sky.”
+But you won’t feel my weight, when you rest under me”<br/><br/>
 
  
 
-Sonto was mad, he did not like to lose.
+The King answered back with the promptest reply,<br/><br/>
 
-For last of his riddles, he knew which to choose.
+“Enormous and weightless, you must be the sky.”<br/><br/>
+
+ 
+
+Sonto was mad, he did not like to lose.<br/><br/>
+
+For last of his riddles, he knew which to choose.<br/><br/>
 
 </asp:Label>
             </p>
             <p class="auto-style1">
                 <img class="auto-style8" src="images%20(2)/king%20michael/2.png" /></p>
             <p class="auto-style1">
-                <asp:Label ID="Label7" runat="server" Text="Label">“I’m older than all, and although this is true,
+                <asp:Label ID="Label7" runat="server" Text="Label">“I’m older than all, and although this is true,<br/><br/>
 
-Somehow I’ve seen fewer nights than have you.”
-
- 
-
-Sonto laughed out as he watched the King think,
-
-Until the good King gave a smile and wink…
+Somehow I’ve seen fewer nights than have you.”<br/><br/>
 
  
 
-“The riddle is solved, and the game has been won.
+Sonto laughed out as he watched the King think,<br/><br/>
 
-You never see night, because you are the sun!”
-
-
-
-
-The box opened up and a small ball of light,
-
-Shot through the ceiling and took off in flight
+Until the good King gave a smile and wink…<br/><br/>
 
  
 
-It grew as it rose in a wonderful way,
+“The riddle is solved, and the game has been won.<br/><br/>
 
-’Til the sun filled the sky and changed night into day!
-
- 
-
-At the castle the King had a great celebration
-
-With no gifts allowed, only pure jubilation.
-
- 
-
-The wizard was jailed for his mischievous crime,
-
-But the king let him out after one day of time.
+You never see night, because you are the sun!”<br/><br/>
 
 
 
-He was ordered to clean by decree of the Queen,
 
-Look after the horses, and mop the floors clean.
+The box opened up and a small ball of light,<br/><br/>
+
+Shot through the ceiling and took off in flight<br/><br/>
 
  
 
-When Michael walked by, he was greeted by cheers.
+It grew as it rose in a wonderful way,<br/><br/>
 
-They spoke of his greatness for years upon years.
-
- 
-
-However, the duck, was not heard from again
-
-The closest they found was an unpleasant hen.
+’Til the sun filled the sky and changed night into day!<br/><br/>
 
  
 
-If you see him, this duck, with his colorful beak,
+At the castle the King had a great celebration<br/><br/>
+
+With no gifts allowed, only pure jubilation.<br/><br/>
+
+ 
+
+The wizard was jailed for his mischievous crime,<br/><br/>
+
+But the king let him out after one day of time.<br/><br/>
+
+
+
+He was ordered to clean by decree of the Queen,<br/><br/>
+
+Look after the horses, and mop the floors clean.<br/><br/>
+
+ 
+
+When Michael walked by, he was greeted by cheers.<br/><br/>
+
+They spoke of his greatness for years upon years.<br/><br/>
+
+ 
+
+However, the duck, was not heard from again<br/><br/>
+
+The closest they found was an unpleasant hen.<br/><br/>
+
+ 
+
+If you see him, this duck, with his colorful beak,<br/><br/>
 
 I warn you, be wary, of that which you speak!</asp:Label>
             </p>

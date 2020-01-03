@@ -8,12 +8,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Button ID="Button2" runat="server" Text="Users details" Width="253px" OnClick="Button2_Click" />
-        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="227px" />
-        <asp:Button ID="Button7" runat="server" PostBackUrl="~/StoriesRateForAdmin.aspx" Text="Stories rating" OnClick="Button7_Click" />
-        <asp:Button ID="Button8" runat="server" PostBackUrl="~/StudentsReadingTime.aspx" Text="Stories reading time" OnClick="Button8_Click" />
-        <asp:Button ID="Button9" runat="server" Height="28px" OnClick="Button9_Click" Text="About the page" Width="220px" />
-        <asp:Button ID="Button6" runat="server" Text="Log out" Width="221px" OnClick="Button6_Click" />
+        <asp:Button ID="Button2" runat="server" Text="Users details" Width="253px" OnClick="Button2_Click" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" ForeColor="Black" style="font-weight: 700; font-style: italic; background-color: #996633" />
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Suggestions from parents" Width="227px" style="font-style: italic; font-weight: 700; background-color: #996633" />
+        <asp:Button ID="Button7" runat="server" PostBackUrl="~/StoriesRateForAdmin.aspx" Text="Stories rating" OnClick="Button7_Click" style="font-weight: 700; font-style: italic; background-color: #996633" />
+        <asp:Button ID="Button8" runat="server" PostBackUrl="~/StudentsReadingTime.aspx" Text="Stories reading time" OnClick="Button8_Click" style="font-weight: 700; font-style: italic; background-color: #996633" />
+        <asp:Button ID="Button9" runat="server" Height="28px" OnClick="Button9_Click" Text="About the page" Width="220px" style="font-style: italic; font-weight: 700; background-color: #996633" />
+        <asp:Button ID="Button6" runat="server" Text="Log out" Width="221px" OnClick="Button6_Click" style="font-weight: 700; font-style: italic; color: #000000; background-color: #996633" />
         <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

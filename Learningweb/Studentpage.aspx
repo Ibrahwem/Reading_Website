@@ -17,13 +17,14 @@
                 <asp:ListItem>Animals Stories</asp:ListItem>
             </asp:DropDownList>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [storycategory] FROM [category]"></asp:SqlDataSource>
-            <asp:Button ID="Button3" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="25px" style="color: #FFFF00; font-weight: 700; font-style: italic; background-color: #000099" Text="Stories approved/suggested for reading" OnClick="Button3_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button3" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" Height="25px" style="color: #FFFF00; font-weight: 700; font-style: italic; background-color: #000099; text-align: left;" Text="Stories approved/suggested for reading" OnClick="Button3_Click" />
+&nbsp;<asp:Button ID="Button5" runat="server" Height="23px" OnClick="Button5_Click" Text="About the page" Width="208px" BackColor="Red" BorderColor="Red" BorderStyle="Solid" style="font-weight: 700; font-style: italic; color: #FFFF00; background-color: #000099" />
+            &nbsp;&nbsp;<asp:Button ID="Button6" runat="server" Height="23px" OnClick="Button6_Click" style="font-weight: 700; font-style: italic" Text="Received messages" Width="158px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button4" runat="server" BackColor="#000099" BorderColor="Red" BorderStyle="Solid" ForeColor="Yellow" Height="27px" OnClick="Button4_Click" style="font-weight: 700; font-style: italic" Text="Logout" />
             </div>
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button5" runat="server" Height="45px" OnClick="Button5_Click" Text="About the page" Width="208px" />
         <br />
         <br />
         <br />
