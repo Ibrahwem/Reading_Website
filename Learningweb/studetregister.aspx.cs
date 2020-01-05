@@ -11,32 +11,22 @@ namespace Learningweb
 {
     public partial class studetregister : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
-
-        protected void Page_Load(object sender, EventArgs e)
+        readonly SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
+        public bool StudentId(string ID)
         {
-
+            if (ID.Length != 9)
+                return false;
+            return true;
         }
-
-        protected void Button1_Click(object sender, EventArgs e)
+        public bool StudentUsername(string username)
         {
             int countcapital = 0;
             int countnumber = 0;
             int countsmall = 0;
-            string userpass = spassword.Text;
-            string username = susername.Text;
-            string userId = sidentity.Text;
-            if (userId.Length != 9)
-            {
-                Label63.Text = "Your Identity should be 9 digits";
-                sidentity.Text = "";
-            }
-            else
-                Label63.Text = "";
-
             if (username.Length >= 15)
             {
                 Label62.Text = "Your name should not be more than 14 letters";
+                return false;
             }
             else
             {
@@ -52,20 +42,26 @@ namespace Learningweb
                 if (countcapital + countnumber + countsmall != username.Length || countcapital == 0 || countnumber == 0 || countsmall == 0)
                 {
                     Label62.Text = "username should just have a small/capital letters and numbers!";
+                    return false;
                 }
                 else
-                    Label62.Text = "";
+                    return true;
+
 
             }
+        }
+        public bool StudentPass(string userpass)
+        {
             if (userpass.Length <= 9)
             {
                 Label64.Text = "Your Password should not be less than 10 letters";
+                return false;
             }
             else
             {
-                countcapital = 0;
-                countnumber = 0;
-                countsmall = 0;
+                int countcapital = 0;
+                int countnumber = 0;
+                int countsmall = 0;
                 for (int i = 0; i < userpass.Length; i++)
                 {
                     if (userpass[i] >= '0' && userpass[i] <= '9')
@@ -78,12 +74,37 @@ namespace Learningweb
                 if (countcapital + countnumber + countsmall != userpass.Length || countcapital == 0 || countnumber < 3 || countsmall == 0)
                 {
                     Label64.Text = "Password should just have a small/capital letters and min 3 numbers!";
+                    return false;
                 }
                 else
-                {
-                    Label64.Text = "";
-                    if (Label62.Text == "" && Label63.Text == "")
-                    {
+                    return true;
+            }
+            
+        }
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string suserpass = spassword.Text;
+            string ssusername = susername.Text;
+            string userId = sidentity.Text;
+            if (!StudentId(userId))
+            {
+                Label63.Text = "Your Identity should be 9 digits";
+                sidentity.Text = "";
+            }
+            else
+                Label63.Text = "";
+            if (StudentUsername(ssusername))
+                Label62.Text = "";
+            if(StudentPass(suserpass))
+              {
+                 Label64.Text = "";
+                 if (Label62.Text == "" && Label63.Text == "")
+                 {
                         string check = " select count(*) from [student] where username ='" + susername.Text + "' or Sidentity='" + sidentity.Text + "' ";
                         SqlCommand com = new SqlCommand(check, con);
                         con.Open();
@@ -104,11 +125,13 @@ namespace Learningweb
                             Label61.ForeColor = System.Drawing.Color.Red;
                             Label61.Text = "This username or Identity is taken.Try another.";
                         }
-                    }
-                }
-
+                 }
             }
+
+            
   
         }
+         
+        
     }
 }

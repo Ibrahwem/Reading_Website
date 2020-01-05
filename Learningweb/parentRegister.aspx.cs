@@ -9,7 +9,7 @@ namespace Learningweb
 {
     public partial class Register : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
+        readonly SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -94,5 +94,6 @@ namespace Learningweb
                 }
             }
         }
+        
     }
 }
