@@ -42,6 +42,30 @@ namespace UnitTestProject2
             //Assert
             Assert.IsTrue(x);
         }
+
+        [TestMethod]
+        public void Testparentusername()
+        {
+            //Arrange
+            Register check = new Register();
+            // Act
+            bool x = check.Parentusername("Abcd1998qwdas");
+            //Assert
+            Assert.IsTrue(x);
+
+        }
+
+        [TestMethod]
+        public void Testparentpassword()
+        {
+            //Arrange
+            Register check = new Register();
+            // Act
+            bool x = check.Parentpassword("Mahmoud199");
+            //Assert
+            Assert.IsTrue(x);
+
+        }
     }
     
       

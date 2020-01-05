@@ -15,17 +15,15 @@ namespace Learningweb
         {
 
         }
-
-        protected void Button1_Click(object sender, EventArgs e)
+        public bool Parentusername(string pusername)
         {
             int countcapital = 0;
             int countnumber = 0;
             int countsmall = 0;
-            string parentpass = password.Text;
-            string pusername = username.Text;
             if (pusername.Length >= 15)
             {
                 Label62.Text = "Your name should not be more than 14 letters";
+                return false;
             }
             else
             {
@@ -41,20 +39,23 @@ namespace Learningweb
                 if (countcapital + countnumber + countsmall != pusername.Length || countcapital == 0 || countnumber == 0 || countsmall == 0)
                 {
                     Label62.Text = "username should just have a small/capital letters and numbers!";
+                    return false;
                 }
-                else
-                    Label62.Text = "";
-
             }
+            return true;
+        }
+        public bool Parentpassword(string parentpass)
+        {
             if (parentpass.Length <= 9)
             {
                 Label64.Text = "Your Password should not be less than 10 letters";
+                return false;
             }
             else
             {
-                countcapital = 0;
-                countnumber = 0;
-                countsmall = 0;
+                int countcapital = 0;
+                int countnumber = 0;
+                int countsmall = 0;
                 for (int i = 0; i < parentpass.Length; i++)
                 {
                     if (parentpass[i] >= '0' && parentpass[i] <= '9')
@@ -67,11 +68,21 @@ namespace Learningweb
                 if (countcapital + countnumber + countsmall != parentpass.Length || countcapital == 0 || countnumber < 3 || countsmall == 0)
                 {
                     Label64.Text = "Password should just have a small/capital letters and min 3 numbers!";
+                    return false;
                 }
-                else
+            }
+            return true;
+        }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string parentpassw = password.Text;
+            string ppusername = username.Text;
+                if(Parentusername(ppusername))
+                    Label62.Text = "";
+                if(Parentpassword(parentpassw) && Label62.Text == "")
                 {
-                    Label64.Text = "";
-                    string check = " select count(*) from [parent] where username ='" + username.Text + "' ";
+                Label64.Text = "";
+                string check = " select count(*) from [parent] where username ='" + username.Text + "' ";
                     SqlCommand com = new SqlCommand(check, con);
                     con.Open();
                     int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
@@ -92,7 +103,7 @@ namespace Learningweb
                         Label7.Text = "This username is taken.Try another.";
                     }
                 }
-            }
+            
         }
         
     }
