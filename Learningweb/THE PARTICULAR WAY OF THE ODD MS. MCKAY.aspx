@@ -147,7 +147,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Button" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Send Rate" />
             </p>
         <p>
             <asp:Label ID="Label18" runat="server" Text="."></asp:Label>

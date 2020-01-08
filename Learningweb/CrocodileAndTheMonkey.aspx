@@ -161,7 +161,7 @@
             <br />
             <br />
             <br />
-&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Button" />
+&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Send Rate" />
             <br />
             <br />
             <asp:Label ID="Label18" runat="server" Text="."></asp:Label>
